@@ -1,7 +1,6 @@
 $(document).ready(function () {
     // counter = 1;
     // var Pattern = {
-
     //     "level1": ["s1", "s2", "s3", "s4"],
     //     "level2": ["s1", "s3", "s2", "s4"],
     //     "level3": ["s3", "s2", "s1", "s4"],
