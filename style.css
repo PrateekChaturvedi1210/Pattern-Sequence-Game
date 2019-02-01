@@ -1,0 +1,78 @@
+#circle_container {
+  position: absolute;
+  left: 48%;
+  margin-top: 5%;
+}
+
+#s1,#s2,#s3,#s4 {
+  position: absolute;
+  height: 75px;
+  width: 75px;
+  z-index: -1;
+}
+
+.startButton {
+  position: absolute;
+  top: 70%;
+  left: 47%;
+}
+
+.startButton button {
+  width: 100px;
+  height: 50px;
+  border-radius: 10%;
+}
+
+header {
+  background: grey;
+  padding: 20px;
+  margin-bottom: 50px;
+}
+
+header h2 {
+  text-align: center;
+}
+.outputMsg{
+  top: 82%;
+  position: absolute;
+  background: #00800085;
+  width: 95%;
+  padding: 20px;
+}
+
+
+#s1 {
+  border-radius: 100px 0 0 0;
+  -moz-border-radius: 100px 0 0 0;
+  top: -50px;
+  left: -50px;
+  background-color: red;
+  opacity: 0.2;
+}
+
+#s2 {
+  border-radius: 0 100px 0 0;
+  -moz-border-radius: 0 100px 0 0;
+  top: -50px;
+  left: 26px;
+  background-color: green;
+  opacity: 0.2;
+}
+
+#s3 {
+  border-radius: 0 0 0 100px;
+  -moz-border-radius: 0 0 0 100px;
+  top: 26px;
+  left: -50px;
+  background-color: blue;
+  opacity: 0.2;
+}
+
+#s4 {
+  border-radius: 0 0 100px 0;
+  -moz-border-radius: 0 0 100px 0;
+  top: 26px;
+  left: 26px;
+  background-color: yellow;
+  opacity: 0.2;
+}
